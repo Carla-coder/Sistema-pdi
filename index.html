@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistema PDI</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Plano de Desenvolvimento Individual - PDI</h1>
+    </header>
+
+    <main>
+      <section class="create-pdi">
+        <form id="pdi-form">
+          <h2>Criar Novo PDI</h2>
+          <label for="name">Nome da Aluno(a):</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Nome"
+            required
+          />
+
+          <label for="goal">Meta:</label>
+          <input
+            type="text"
+            id="goal"
+            name="goal"
+            placeholder="Sua meta"
+            required
+          />
+
+          <label for="goal">Meus Objetivos:</label>
+          <input
+            type="text"
+            id="objectives"
+            name="objectives"
+            placeholder="Seu objetivo"
+            required
+          />
+
+          <label for="start-date">Início:</label>
+          <input type="date" id="start-date" name="start-date" required />
+
+          <label for="end-date">Fim:</label>
+          <input type="date" id="end-date" name="end-date" required />
+
+          <button type="submit">Adicionar PDI</button>
+        </form>
+      </section>
+      <section class="pdi-list">
+        <h2>Lista de PDIs</h2>
+        <ul id="pdi-container">
+          <p>Nenhum PDI cadastrado.</p>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Carla Coder - Todos os direitos reservados</p>
+      <div class="social-links">
+        <a href="https://linkedin.com/in/carlamozena" target="_blank"
+          >LinkedIn</a
+        >
+        <a href="https://github.com/Carla-coder" target="_blank">GitHub</a>
+        <a href="https://instagram.com/Carla_coder2023" target="_blank">Instagram</a>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
