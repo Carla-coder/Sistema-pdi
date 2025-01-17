@@ -7,6 +7,9 @@ O **Sistema PDI** é uma aplicação desenvolvida para auxiliar na criação, ge
 
 Além disso, a aplicação é totalmente responsiva, garantindo uma boa experiência de uso em dispositivos móveis, tablets e desktops, adaptando-se automaticamente ao tamanho da tela.
 
+- Tela inicial
+![1](https://github.com/user-attachments/assets/fc8f5672-2b34-48f7-9d64-0e174e438c23)
+
 ### 💻 Tecnologias Utilizadas
 
 - **HTML**: Estrutura da página e dos formulários.
